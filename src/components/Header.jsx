@@ -13,7 +13,7 @@ const Header = () => {
             <img
               src={heroIllustration}
               alt="People organizing files into a secure folder"
-              className="w-full max-w-[700px] mx-auto"
+              className="w-full max-w-[500px] mx-auto lg:max-w-[680px]"
             />
           </figure>
 
