@@ -7,14 +7,14 @@ const Productive = () => {
         <img
           src={illustrationProductive}
           alt="People working together with speech bubbles"
-          className="w-full max-w-[520px] justify-self-center rounded-3xl lg:justify-self-start xl:w-[40rem]"
+          className="w-full max-w-[520px] justify-self-center rounded-3xl lg:justify-self-start xl:w-[70rem]"
         />
 
         <div className="space-y-8 md:space-y-5">
-          <h2 className="text-3xl text-center font-semibold tracking-tight text-white md:text-left md:text-4xl md:max-w-[20rem] md:leading-snug">
+          <h2 className="text-3xl text-center font-semibold tracking-tight text-white md:text-left md:text-4xl md:max-w-[20rem] md:leading-snug lg:text-5xl lg:max-w-[25rem]">
             Stay productive, wherever you are
           </h2>
-          <p className="text-lg leading-8 text-white sm:text-base md:max-w-[35rem]">
+          <p className="text-lg leading-8 text-white sm:text-base md:max-w-[38rem] lg:text-[1.24rem]">
             Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.
             <br/><br/>
             Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.
