@@ -22,7 +22,7 @@ const Header = () => {
             <h1 className="text-center text-3xl font-semibold tracking-tight leading-11 text-white sm:text-5xl sm:leading-18">
               All your files in one secure location, accessible anywhere.
             </h1>
-            <p className="max-w-2xl mx-auto text-center text-sm leading-7 text-slate-300 sm:text-base sm:leading-7">
+            <p className="max-w-2xl mx-auto text-center text-sm leading-7 text-white sm:text-base sm:leading-7 lg:text-[1.4rem] lg:leading-9">
               Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.
             </p>
             <a
