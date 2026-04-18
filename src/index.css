@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+  --color-primary-850: hsl(217, 28%, 15%);
+  --color-primary-900: hsl(218, 28%, 13%);
+  --color-primary-950: hsl(216, 53%, 9%);
+  --color-primary-800: hsl(219, 30%, 18%);
+  --color-accent-200: hsl(176, 68%, 64%);
+  --color-accent-500: hsl(198, 60%, 50%);
+  --color-error: hsl(0, 100%, 63%);
+  --color-white: hsl(0, 0%, 100%);
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--color-primary-900);
+  color: var(--color-white);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+nav a,
+button,
+a.cta-link {
+  font-family: 'Raleway', sans-serif;
+}
+
+input,
+textarea,
+select,
+body,
+p,
+span,
+li {
+  font-family: 'Open Sans', sans-serif;
+}
