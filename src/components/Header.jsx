@@ -4,7 +4,7 @@ import heroIllustration from '../assets/illustration-intro.png'
 
 const Header = () => {
   return (
-    <header className="overflow-hidden">
+    <header className="overflow-hidden bg-[url('/bg-curvy-mobile.svg')] md:bg-[url('/bg-curvy-desktop.svg')] bg-no-repeat bg-[length:100%_auto] bg-bottom">
       <div className="mx-auto max-w-7xl px-6 py-8 md:px-12 md:py-12 text-sm sm:text-base">
 
         <Nav />
@@ -13,7 +13,7 @@ const Header = () => {
             <img
               src={heroIllustration}
               alt="People organizing files into a secure folder"
-              className="w-full max-w-[500px] mx-auto"
+              className="w-full max-w-[700px] mx-auto"
             />
           </figure>
 
