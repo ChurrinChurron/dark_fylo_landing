@@ -3,9 +3,8 @@ import CTA from './CTA'
 import FaDirection from '../assets/location.svg'
 import FaPhone from '../assets/phone.svg'
 import FaEmail from '../assets/gmail.svg'
-import Facebook from '../assets/facebook.svg'
-import Twitter from '../assets/twitter.svg'
-import Instagram from '../assets/instagram.svg'
+import { FaFacebookF, FaInstagram } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
 
@@ -23,7 +22,7 @@ const Footer = () => {
         <img src={logo} alt="Fylo logo" className="h-15" />
         <div className="grid gap-10 text-sm lg:grid-cols-[1.1fr_0.24fr_0.2fr_0.35fr] items-start">
 
-          <div className="mt-14 lg:grid lg:grid-cols-[1.6fr_1.3fr] lg:gap-12">
+          <div className="mt-14 lg:grid lg:grid-cols-[1.1fr_1.4fr] lg:gap-12">
             <div className="flex items-start gap-7 text-white">
               <img src={FaDirection} className="h-6" alt="Location" />
               <span className="text-lg leading-7">
@@ -43,27 +42,27 @@ const Footer = () => {
           </div>
 
           <div className="flex flex-col gap-4">
-            <a href="#" className="inline-block text-xl text-white transition hover:text-white">About Us</a>
-            <a href="#" className="inline-block text-xl text-white transition hover:text-white">Jobs</a>
-            <a href="#" className="inline-block text-xl text-white transition hover:text-white">Press</a>
-            <a href="#" className="inline-block text-xl text-white transition hover:text-white">Blog</a>
+            <a href="#" className="inline-block text-xl text-white transition hover:font-semibold">About Us</a>
+            <a href="#" className="inline-block text-xl text-white transition hover:font-semibold">Jobs</a>
+            <a href="#" className="inline-block text-xl text-white transition hover:font-semibold">Press</a>
+            <a href="#" className="inline-block text-xl text-white transition hover:font-semibold">Blog</a>
           </div>
 
           <div className="flex flex-col gap-4">
-            <a href="#" className="inline-block text-xl text-white transition hover:text-white">Contact Us</a>
-            <a href="#" className="inline-block text-xl text-white transition hover:text-white">Terms</a>
-            <a href="#" className="inline-block text-xl text-white transition hover:text-white">Privacy</a>
+            <a href="#" className="inline-block text-xl text-white transition hover:font-semibold">Contact Us</a>
+            <a href="#" className="inline-block text-xl text-white transition hover:font-semibold">Terms</a>
+            <a href="#" className="inline-block text-xl text-white transition hover:font-semibold">Privacy</a>
           </div>
 
           <div className="flex justify-center items-center gap-5 mt-6 md:mt-0 md:justify-end">
-            <a href={Facebook} className="border rounded-full p-3 transition hover:text-white">
-              <img src={Facebook} className="h-6" alt="Facebook" />
+            <a href="#facebook" className="group border rounded-full p-3 transition hover:border-[var(--color-accent-200)]">
+              <FaFacebookF className="text-2xl transition group-hover:fill-[var(--color-accent-200)]" />
             </a>
-            <a href={Twitter} className="border rounded-full p-3 transition hover:text-white">
-              <img src={Twitter} className="h-6" alt="Twitter" />
+            <a href="#twitter" className="group border rounded-full p-3 transition hover:border-[var(--color-accent-200)]">
+              <FaXTwitter className="text-2xl transition group-hover:fill-[var(--color-accent-200)]" />
             </a>
-            <a href={Instagram} className="border rounded-full p-3 transition hover:text-white">
-              <img src={Instagram} className="h-7" alt="Instagram" />
+            <a href="#instagram" className="group border rounded-full p-3 transition hover:border-[var(--color-accent-200)]">
+              <FaInstagram className="text-2xl transition group-hover:fill-[var(--color-accent-200)]" />
             </a>
           </div>
         </div>
