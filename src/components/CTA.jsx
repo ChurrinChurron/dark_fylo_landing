@@ -67,7 +67,7 @@ const CTA = ({ overlay = false }) => {
 
           <button
             type="submit"
-            className="rounded-full bg-[var(--color-accent-200)] px-8 py-4 text-sm text-white cursor-pointer transition hover:opacity-90"
+            className="rounded-full bg-[var(--color-cyan-500)] px-8 py-4 text-md font-semibold text-white cursor-pointer transition hover:bg-[var(--color-accent-200)]"
           >
             Get Started For Free
           </button>
